@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: simple-django-chart:latest
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
