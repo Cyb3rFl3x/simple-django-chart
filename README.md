@@ -8,8 +8,8 @@ If you are currently working on a web application that is based on Django and wi
 4.
 
 ## Info
-1. The official way running a django application is to deploy the application in a python container and install django in it.
-2. `repository: simple-django-chart:latest` -> `your repo`
+1. The official way running a django application is to deploy the application in a python container and install django
+2. `repository: simple-django-chart:latest` -> `repository: your repo`
 
 ## BUILD
 

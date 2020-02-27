@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: simple-django-chart:latest
+  repository: cyb3rfl3x/simple-django-chart
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -32,7 +32,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  port: 8080
 
 ingress:
   enabled: false
